@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H
+#define _MAIN_H
 
 #define EXIT_SUCCESS 0
 
@@ -23,5 +23,6 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+int _strncmp(char *s1, char *s2, int n);
 
 #endif
